@@ -53,6 +53,7 @@ public class Main {
 
                 System.out.println("Ingrese el valor que desea convertir:");
                 double monto = lectura.nextDouble();
+                System.out.println("");
                 String moneda_base;
                 String modena_destino;
                 switch (opcion){

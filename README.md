@@ -39,25 +39,25 @@ Para que el programa funcione correctamente, es necesario configurar tu propia l
 * **Biblioteca Gson:** Versión gson-2.13.2 para la manipulación de JSON.
 * **ExchangeRate-API:** Servicio externo para obtener tasas de cambio actualizadas https://www.exchangerate-api.com/ .
 * **IntelliJ IDEA:** Entorno de desarrollo utilizado.
- 
+
 
 ##### ***Estado de las funcionalidades:***
 ---
-*[x] Configuración de cliente HTTP: Implementación de HttpClient para conexión con el servidor.
+* [x] Configuración de cliente HTTP: Implementación de HttpClient para conexión con el servidor.
 
-*[x] Consumo de API: Solicitudes exitosas a ExchangeRate-API para obtener tasas en tiempo real.
+* [x] Consumo de API: Solicitudes exitosas a ExchangeRate-API para obtener tasas en tiempo real.
 
-*[x] Mapeo de datos JSON: Serialización y deserialización de datos utilizando la biblioteca Gson.
+* [x] Mapeo de datos JSON: Serialización y deserialización de datos utilizando la biblioteca Gson.
 
-*[x] Menú interactivo: Bucle de consola con múltiples opciones de conversión y salida controlada.
+* [x] Menú interactivo: Bucle de consola con múltiples opciones de conversión y salida controlada.
 
-*[x] Filtro de monedas: Soporte específico para monedas seleccionadas (USD, ARS, BRL, COP, CLP).
+* [x] Filtro de monedas: Soporte específico para monedas seleccionadas (USD, ARS, BRL, COP, CLP).
 
-*[x] Cálculo de conversión: Lógica matemática para aplicar la tasa de cambio al monto ingresado.
+* [x] Cálculo de conversión: Lógica matemática para aplicar la tasa de cambio al monto ingresado.
 
-*[x] Historial de sesión: Registro dinámico de las consultas realizadas durante la ejecución.
+* [x] Historial de sesión: Registro dinámico de las consultas realizadas durante la ejecución.
 
-*[x] Marca de tiempo: Inclusión de fecha y hora exacta en cada registro mediante java.time.
+* [x] Marca de tiempo: Inclusión de fecha y hora exacta en cada registro mediante java.time.
 
 <h3 style="color: Green; font-style: italic;">Autor</h3>
 
